@@ -1,0 +1,19 @@
+# Data source configuration
+data_source:
+  type: "csv"  # Options: "csv", "mongodb", "sql", "api"
+  path: "notebook/data/titanic_train.csv"  # For CSV
+  # For MongoDB:
+  # mongodb:
+  #   uri: "mongodb://localhost:27017/"
+  #   database: "titanic"
+  #   collection: "train_data"
+  # For SQL:
+  # sql:
+  #   connection_string: "sqlite:///database.db"
+  #   table: "titanic_train"
+
+# Data split configuration
+split_config:
+  test_size: 0.2
+  random_state: 42
+  shuffle: True
