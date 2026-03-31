@@ -37,7 +37,7 @@ using Random Forest Classifier.
 - One-Hot : Embarked, Title_Group
 - Ordinal : Fare_Binned
 
-### 6. Final Features (15 features)
+### 6. Final Features (16 features)
 - Pclass, Sex, Has_Cabin, Fare_log
 - Age_handle, Family_Size, Fare_Binned_enc
 - Title_Group_* (6 cols), Embarked_* (2 cols)
@@ -58,19 +58,13 @@ Random Forest Classifier (default parameters)
 - Recall    : 0.83
 - F1 Score  : 0.83
 
-## Requirements
-pip install numpy pandas scikit-learn 
-            matplotlib seaborn jupyter
 
 ## How to Run
 1. Clone the repository
 2. Install requirements
 3. Run notebook: titanic_prediction.ipynb
-```
 
----
 
-**Is everything done well? Honest Review:**
 ```
     Data Cleaning      → thorough, no shortcuts
     Feature Engineering → smart (Family_Size, Title_Group)
@@ -78,7 +72,7 @@ pip install numpy pandas scikit-learn
     Model Selection    → compared 5 models fairly
     Tuning             → used GridSearchCV properly
     Evaluation         → accuracy + F1 + confusion matrix
-    Final Accuracy     → 84.92% (above Kaggle average of 77–80%)
+    Final Accuracy     → 84.92% 
 
   One thing to add later:
    → Feature importance plot
