@@ -30,5 +30,33 @@ ipykernel
 pytest
 black
 flake8
+pyyaml
+pymongo  # For MongoDB
+sqlalchemy  # For SQL databases
+requests  # For API calls
+
+mlflow
+dvc
+optuna
+bentoml
+prefect
+evidently
+wandb
+tensorboard
+
+# Model Interpretation
+shap
+lime
+mlxtend
+
+# Data Profiling
+pandas-profiling
+ydata-profiling
+
+
+# Cloud Storage (optional - uncomment if needed)
+# boto3>=1.28.0
+# google-cloud-storage>=2.10.0
+# azure-storage-blob>=12.18.0
 
 -e .

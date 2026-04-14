@@ -205,3 +205,41 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Jupyter notebooks
+*.ipynb
+*.ipynb
+
+# Data files
+*.csv
+*.xlsx
+*.json
+
+# Model files
+*.pkl
+*.joblib
+*.h5
+*.pb
+
+# Database files
+*.db
+mlflow.db
+*.sqlite
+*.sqlite3
+
+# Notebook directories
+notebook/
+notebooks/
+exploratory/
+
+# Virtual environment (if not already added)
+venv/
+env/
+.venv/
+
+# IDE specific
+.vscode/
+.idea/
+
+# Logs
+*.log
